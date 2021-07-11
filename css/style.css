@@ -1,0 +1,87 @@
+body {
+    background-color: #1E3932;    
+
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke:#1E3932;
+  stroke-width: 1px;
+}
+
+.node--leaf {
+  fill:#02754B;
+}
+
+.label {
+  font: 8px "Helvetica";
+  fill: white;
+  text-anchor: middle;
+
+}
+
+.label,
+.node--root,
+.node--leaf {
+  /* pointer-events: none; */
+
+}
+
+html, body, svg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+
+#parentname {
+  font-family: "Helvetica";
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 30pt;
+  position: fixed;
+  width: 95%;
+  top: 5%;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+/***************************** Yosuke ***********************************/
+a:hover{
+  color: #fff !important;
+  text-decoration: none !important;
+  font-weight: bold;
+}
+a.button{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.button{
+  padding: 10px 40px;  
+  border-radius: 10px;
+}
+.button.cancel{
+  background: #f75959;
+  border:1px solid #f75959;
+}
+.button.success{
+  background:#0eb90e;
+  border:1px solid #0eb90e;
+}
+input:focus{
+  outline: none;
+}
+.modal input{
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #ccc;
+}
